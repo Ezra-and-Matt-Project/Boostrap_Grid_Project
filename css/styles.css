@@ -1,23 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
-
+/*setting custom background color and proper fonts for entire page*/
 body {
     font-family: 'Abel', sans-serif;
-
+    background-color: #F0F0F0
 }
+/*setting font for headers*/
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Anton', sans-serif;
 }
+/*custom image class resizing images and cropping images based on their relative size*/
 .img-resize {
     height: 300px;
     width: 100%;
     object-fit: cover;
 }
-.new-line {
-    display: none;
+/*class to make colored circles a certain size*/
+.custom-circle {
+    height: 100px;
+    width: 100px;
 }
-
-@media screen and (max-width: 768px){
-    .new-line {
-        max-width: 100%;
+/* class for hiding elements when <sm */
+@media screen and (max-width: 575px) {
+    .hide-xs-small {
+        display: none;
     }
+
 }
