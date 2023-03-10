@@ -12,3 +12,12 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
     object-fit: cover;
 }
+.new-line {
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .new-line {
+        max-width: 100%;
+    }
+}
