@@ -7,17 +7,15 @@
           integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 
-
 </head>
 <body style="background-color: #F0F0F0">
-
-<!--NAV BAR TOP-->
+<!--NAV BAR-->
 <div>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <img class="p-2" style="height: 105px; width: 105px" src="img/logo.png" alt="company logo">
+            <img class="p-2 ms-1" style="height: 105px; width: 105px" src="img/logo.png" alt="company logo">
             <a class="navbar-brand tex m-3 d-xs-none d-sm-none d-md-none d-lg-block d-xl-block" href="#"><h3
-                    class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block">codeup design</h3></a>
+                    class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block me-4">codeup design</h3></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +24,7 @@
             <div class="collapse navbar-collapse pl-1" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-secondary ms-4" aria-current="page" href="#">SERVICES</a>
+                        <a class="nav-link text-secondary" aria-current="page" href="#">SERVICES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-secondary" href="#">WORK</a>
@@ -64,9 +62,10 @@
             <h3>FROM PARK CITY, UTAH</h3>
         </div>
     </div>
+<!--    COLORED CIRCLE HEADER ICONS-->
     <div class="container">
         <div class="row justify-content-center mb-5">
-            <div class="col-2 col-sm-12 col-md-8 m-3 d-flex align-items-center justify-content-center rounded-circle border border-5 border-white"
+            <div class="col-2 col-sm-6 col-md-6 m-3 d-flex align-items-center justify-content-center rounded-circle border border-5 border-white"
                  style="height: 100px; width: 100px; background-color: #E6563B;">
                 <h6 class="text-light text-center m-0">DESIGN</h6>
             </div>
@@ -74,6 +73,8 @@
                  style="height: 100px; width: 100px; background-color: #EB9D3A;">
                 <h6 class="text-light text-center m-0">DEVELOP</h6>
             </div>
+<!--            FORCE NEW ROW AT SMALL BREAKPOINT-->
+            <div class="new-line d-sm-block d-m-none d-lg-none d-xl-none"></div>
             <div class="col-2 col-sm-6 col-md-6 m-3 d-flex align-items-center justify-content-center rounded-circle border border-5 border-white"
                  style="height: 100px; width: 100px; background-color: #7CB06C;">
                 <h6 class="text-light text-center m-0">SUPPORT</h6>
@@ -86,40 +87,42 @@
     </div>
 </header>
 
-<!--FOOTER-->
-<footer class="container border-top border-dark-subtle">
+<!--MAIN-->
+<main class="container p-sm-0">
+    <hr class="mb-3 d-sm-none d-md-block d-lg-block d-xl-block">
     <div class="row">
-        <div class="col-lg-8 col-md-8 mx-auto">
+<!--        LEFT MAIN COLUMN-->
+        <section class="col-lg-8 mx-auto">
             <div class="text-center m-4">
                 <p> SELECTED WORK </p>
             </div>
             <div class="row">
-                <div class=" col-md-6">
-                    <img src="img/apple-ipad.jpg" class="card-img-top img-resize" alt="Apple Ipad"
+                <div class="col-md-6">
+                    <img src="img/apple-ipad.jpg" class="card-img-top img-resize" alt="Apples sitting next a laptop"
                          style="border-style: solid; border-color: #E6E6E6; border-width: 5px;">
                     <div class="card-body p-1 d-flex justify-content-between">
                         <p class="fs-6">FEATURED PROJECT</p>
                         <img src="img/codeup_icons_2.svg" class="img" style="width: 75px; height: 20px;" alt="icons">
                     </div>
                 </div>
-                <div class=" col-md-6">
-                    <img src="img/macbook.jpg" class="card-img-top img-resize" alt="Apple Ipad"
+                <div class="col-md-6 ">
+                    <img src="img/macbook.jpg" class="card-img-top img-resize" alt="apple desktop and apple computer"
                          style="border-style: solid; border-color: #E6E6E6; border-width: 5px;">
                     <div class="card-body p-1 d-flex justify-content-between">
                         <p class="fs-6">FEATURED PROJECT</p>
                         <img src="img/codeup_icons_2.svg" class="img" style="width: 75px; height: 20px;" alt="icons">
                     </div>
                 </div>
-                <div class=" col-md-6">
-                    <img src="img/man.jpg" class="card-img-top img-resize" alt="Apple Ipad"
-                         style=" height: 253px; border-style: solid; border-color: #E6E6E6; border-width: 5px;">
+                <div class="col-md-6 ">
+                    <img src="img/man.jpg" class="card-img-top img-resize" alt="man with glasses"
+                         style="border-style: solid; border-color: #E6E6E6; border-width: 5px;">
                     <div class="card-body p-1 d-flex justify-content-between">
                         <p class="fs-6">FEATURED PROJECT</p>
                         <img src="img/codeup_icons_2.svg" class="img" style="width: 75px; height: 20px;" alt="icons">
                     </div>
                 </div>
-                <div class=" col-md-6">
-                    <img src="img/security.jpg" class="card-img-top img-resize" alt="Apple Ipad"
+                <div class="col-md-6 ">
+                    <img src="img/security.jpg" class="card-img-top img-resize" alt="screenshot of a security link"
                          style="border-style: solid; border-color: #E6E6E6; border-width: 5px;">
                     <div class="card-body p-1 d-flex justify-content-between">
                         <p class="fs-6">FEATURED PROJECT</p>
@@ -127,8 +130,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-md-4-md d-xs-none d-sm-none d-md-none d-lg-block d-xl-block">
+        </section>
+<!--        RIGHT MAIN COLUMN-->
+        <section class="col-lg-4 col-md-4-md d-sm-none d-md-none d-lg-block d-xl-block">
             <div class="text-center m-4">
                 <p> THE LAST </p>
             </div>
@@ -147,7 +151,6 @@
                     <h3>NIBBLER AWESOME WEBSITE TESTING</h3>
                 </div>
             </div>
-
             <div class="row my-5">
                 <div class="col">
                     <img src="img/ipad.jpg" class="float-start me-3" alt="hands holding an ipad"
@@ -162,9 +165,9 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
-</footer>
+</main>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
